@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>JP Deaton</title>
+    <script defer src="script.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header" id="section--1">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Projects </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Contact</a>
+          </li>
+        </ul>
+        <div class="title">
+          <h1 class="title__name">John-Prosser Deaton</h1>
+        </div>
+        <div class="socials">
+          <ul class="social__links">
+            <li class="social__item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/john-prosser-deaton-52b426238/"
+                class="fa fa-linkedin"
+              ></a>
+            </li>
+            <li class="social__item">
+              <a
+                target="_blank"
+                href="mailto:jp.deaton22@gmail.com"
+                class="fa fa-envelope"
+              ></a>
+            </li>
+            <li class="social__item">
+              <a
+                target="_blank"
+                href="https://github.com/jp1272"
+                class="fa fa-github"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="review">
+            <h4 class="greeting">Hello I am JP Deaton</h4>
+            <h5 class="review__header">Education Background</h5>
+            <p class="review__text">
+              I am a graduate of Berry College, where I studied Applied Physics
+              and Mathematics. At Berry I learned serveral things both
+              educationally and personally. Berry taught me how to work hard and
+              be persistent, how to solve problems well, and how to lead others
+              effectively. At Berry I competed on both the Cross Country and
+              Track teams. I also was elected on the Student Athlete Advisory
+              Committee (SAAC), where I was able to make decisions and give
+              feedback with the athletic department.
+            </p>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="review">
+            <h5 class="review__header">Professional Experience</h5>
+            <p class="review__text">
+              Since college I have been working as a Data Analyst for Utilisave
+              LLC. I spend my time creating scripts in python to clean, filter,
+              and analyze utility data in a database. This includes executing
+              queries in SQL and connecting them to the python scripts. I also
+              worked with machine learning models to identify electrical
+              consumption discrepancies.
+            </p>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="review">
+            <h5 class="review__header">Learning and Certifications</h5>
+            <p class="review__text">
+              In my freetime, I have been working to build skills in web
+              development. This has included being certified through
+              freeCodeCamp's Responsive Web Design course, where I learned HTML
+              and CSS. I also have taken a 71 hour all-intensive JavaScript/Web
+              Dev course on Udemy where I build projects and completed
+              challenges to further my learning.
+            </p>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </header>
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="section--2" class="section projects-section">
+      <h2 class="projects-section-header">Here are my projects...</h2>
+
+      <div class="projects-grid">
+        <ul class="project__links div1">
+          <li
+            data-link="https://jp1272.github.io/Marketing-Website/"
+            class="project__title"
+            data-image="logo.png"
+          >
+            <span class="project--number">1.</span
+            ><span class="project--text">Marketing Website</span>
+          </li>
+          <li
+            data-link="https://codepen.io/jp1272/pen/bNbyeGp"
+            class="project__title"
+            data-image="https://codepen.io/jp1272/pen/bNbyeGp/image/small.png"
+          >
+            <span class="project--number">2.</span
+            ><span class="project--text"
+              >Interactive Rock Paper Scissors Game</span
+            >
+          </li>
+          <li
+            data-link="https://codepen.io/jp1272/pen/yyBjZbJ"
+            class="project__title"
+            data-image="https://codepen.io/jp1272/pen/yyBjZbJ/image/small.png"
+          >
+            <span class="project--number">3.</span
+            ><span class="project--text">C# Documentation</span>
+          </li>
+          <li
+            data-link="https://codepen.io/jp1272/pen/xbKjMOL"
+            class="project__title"
+            data-image="https://codepen.io/jp1272/pen/xbKjMOL/image/small.png"
+          >
+            <span class="project--number">4.</span
+            ><span class="project--text">Survey Form</span>
+          </li>
+        </ul>
+        <div class="preview div2">
+          <a
+            id="preview-link"
+            href="https://jp1272.github.io/Marketing-Website/"
+            target="_blank"
+          >
+            <img id="preview-img" src="logo.png" alt="Website Preview" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="section--3" class="section contact-section">
+      <div class="contact-section-header">
+        <h2>Thank you for viewing my portfolio</h2>
+        <p>
+          Reach out for resume or other inquiries via email (link in top right
+          of your screen)
+        </p>
+      </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+  </body>
+</html>
