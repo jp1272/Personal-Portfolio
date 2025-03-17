@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Prosser Deaton</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo"><span>John Prosser</span> Deaton.</h2>
+      <nav class="navigation">
+        <a href="#section--1" class="home-click">Home</a>
+        <a href="#section--2">About</a>
+        <a href="#section--3">Portfolio</a>
+        <a href="#section--4">Contact</a>
+      </nav>
+      <a href="#section--4" class="btn-talk">Let's Talk</a>
+    </header>
+    <section class="home" id="#section--1">
+      <div class="content">
+        <h2>Hi, I'm <span>JP</span></h2>
+        <h4>Frontend Developer</h4>
+        <p>
+          I am a motivated Junior Data Analyst with a strong foundation in web
+          development skills, including HTML, CSS, JavaScript, and React. I am
+          eager to transition into a Junior Web Developer role, where I can
+          apply my skills in designing, developing, and maintaining web
+          applications that enhance user experience.
+        </p>
+        <div class="btn-group">
+          <a href="#section--4">Contact Me</a>
+          <a href="#section--3">See Projects</a>
+        </div>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/john-prosser-deaton-52b426238/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="mailto:jp.deaton22@gmail.com" target="_blank"
+            ><i class="fa fa-envelope"></i
+          ></a>
+          <a href="https://github.com/jp1272" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="image">
+          <img src="background.jpeg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="section--2">
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="review">
+            <h5 class="review__header">Education Background</h5>
+            <p class="review__text">
+              I am a graduate of Berry College, where I studied Applied Physics
+              and Mathematics. At Berry I learned serveral things both
+              educationally and personally. Berry taught me how to work hard and
+              be persistent, how to solve problems well, and how to lead others
+              effectively. At Berry I competed on both the Cross Country and
+              Track teams. I also was elected on the Student Athlete Advisory
+              Committee (SAAC), where I was able to make decisions and give
+              feedback with the athletic department.
+            </p>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="review">
+            <h5 class="review__header">Professional Experience</h5>
+            <p class="review__text">
+              Since college I have been working as a Junior Data Analyst for
+              Utilisave LLC. At Utilisave my work consists of developing python
+              scripts to clean, filter, and analyza utility data in a SQL
+              database. This includes tasks like: Executing SQL queries and
+              connected them to python scripts, Utilizing machine learning
+              models to identify electrical consumption discrepancies,
+              Collaborating with a team to optimize data analysis processes, and
+              Conducting regular data quality checks and troubleshooting.
+            </p>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="review">
+            <h5 class="review__header">Learning and Certifications</h5>
+            <p class="review__text">
+              In my freetime, I have been working to build skills in web
+              development. This has included being certified through
+              freeCodeCamp's Responsive Web Design course, where I learned HTML
+              and CSS. I also have taken a 71 hour all-intensive JavaScript/Web
+              Dev course on Udemy where I built projects and completed
+              challenges to further my learning.
+            </p>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+      </div>
+    </section>
+
+    <section id="section--3" class="portfolio">
+      <h2 class="projects-section-header">Here are my projects...</h2>
+
+      <div class="projects-grid">
+        <ul class="project__links div1">
+          <li
+            data-link="https://jp1272.github.io/Marketing-Website/"
+            class="project__title"
+            data-image="logo.png"
+          >
+            <span class="project--number">1.</span
+            ><span class="project--text">Marketing Website</span>
+          </li>
+          <li
+            data-link="https://jp1272.github.io/Rock-Paper-Scissors/"
+            class="project__title"
+            data-image="https://codepen.io/jp1272/pen/bNbyeGp/image/small.png"
+          >
+            <span class="project--number">2.</span
+            ><span class="project--text"
+              >Interactive Rock Paper Scissors Game</span
+            >
+          </li>
+          <li
+            data-link="https://forkify-jp-deaton.netlify.app/"
+            class="project__title"
+            data-image="favicon.jpg"
+          >
+            <span class="project--number">3.</span
+            ><span class="project--text">Recipe Application</span>
+          </li>
+          <li
+            data-link="https://jp1272.github.io/Mapty-Project/"
+            class="project__title"
+            data-image="icon.png"
+          >
+            <span class="project--number">4.</span
+            ><span class="project--text">Exercise Log Application</span>
+          </li>
+        </ul>
+        <div class="preview div2">
+          <a
+            id="preview-link"
+            href="https://jp1272.github.io/Marketing-Website/"
+            target="_blank"
+          >
+            <img id="preview-img" src="logo.png" alt="Website Preview" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section--4" class="contact">
+      <div class="contact-section-header">
+        <h2>Thank you for viewing my portfolio</h2>
+        <p>
+          Reach out for resume or other inquiries via email
+          <a href="mailto:jp.deaton22@gmail.com" target="_blank"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
