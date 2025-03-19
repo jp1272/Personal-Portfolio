@@ -21,6 +21,7 @@ header {
   font-size: 2em;
   color: #555;
   cursor: default;
+  padding: 15px;
 }
 .logo span {
   color: #7d2ae8;
